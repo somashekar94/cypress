@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
  
-    "test": "mocha 'cypressautomation/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
+    "test": "mocha 'cypressautomation/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit"
      },
   "author": "somashekhar",
   "license": "ISC",
