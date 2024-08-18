@@ -6,7 +6,7 @@ describe('suite', () => {
         cy.once('uncaught:exception', () => false);
         cy.visit("https://composio.dev")
         cy.wait(500)
-       cy.xpath("//div[@class='uicore-nav-menu']//a[@class='uicore-btn ']").click()  //{force: true}
+       cy.xpath("//div[@class='uicore-nav-menu']//a[@class='uicore-btn ']").click({force: true})
        cy.wait(10000)
        cy.xpath("//input[@type='email']").type("somashekar.raghu@gmail.com").click()
        cy.wait(500)
