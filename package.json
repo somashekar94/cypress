@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+ 
+    "test": "mocha 'cypressautomation/**/*.js' --recursive --reporter mocha-junit-reporter --timeout 60000 --exit",
      },
   "author": "somashekhar",
   "license": "ISC",
